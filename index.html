@@ -7,14 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Яскравий неоновий зелений для акцентів
             --accent: #00ff88;
-            /* Темніший зелений для основного тексту */
             --text-main: #e0ffee;
-            /* Ще темніший зелений для другорядного тексту */
             --text-muted: #88ccaa;
-
-            --bg: #050a05; /* Ледь зеленуватий чорний фон */
+            --bg: #050a05;
             --card-bg: #0a110a;
             --card-hover: #0f1a0f;
             --border: #1a3322;
@@ -37,7 +33,6 @@
             padding: 60px 20px;
         }
 
-        /* --- LOGO & HERO --- */
         nav {
             text-align: center;
             margin-bottom: 80px;
@@ -50,7 +45,7 @@
             line-height: 1;
             margin: 0;
             color: var(--accent);
-            text-shadow: 0 0 30px rgba(0, 255, 136, 0.3); /* І світиться */
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
         }
 
         .version-tag {
@@ -76,7 +71,6 @@
             color: #fff;
         }
 
-
         .hero h1 span {
             color: var(--accent);
         }
@@ -89,7 +83,6 @@
             font-weight: 400;
         }
 
-
         .bento-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -97,7 +90,6 @@
             gap: 24px;
             margin-bottom: 120px;
         }
-
 
         .card {
             background: var(--card-bg);
@@ -118,7 +110,6 @@
             background: var(--card-hover);
             box-shadow: 0 0 30px rgba(0, 255, 136, 0.1);
         }
-
 
         .card-content-top {
             display: flex;
@@ -150,7 +141,6 @@
             font-weight: 400;
         }
 
-
         .card-saas {
             grid-column: span 2;
             grid-row: span 2;
@@ -180,7 +170,6 @@
 
         .card-wide { grid-column: span 2; }
         .card-small { grid-column: span 1; }
-
 
         .btn {
             display: inline-block;
@@ -255,12 +244,10 @@
         ul li { margin-bottom: 14px; color: var(--text-muted); display: flex; align-items: center; font-size: 1rem; }
         .badge-soon { position: absolute; top: 30px; right: 30px; background: #1a221a; color: var(--accent); padding: 8px 16px; border-radius: 100px; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; border: 1px solid var(--border);}
 
-        /* --- FOOTER & LINKS --- */
         footer { border-top: 1px solid var(--border); padding-top: 50px; padding-bottom: 50px; text-align: center; color: var(--text-muted); font-size: 0.9rem; }
         .footer-link { color: var(--accent); text-decoration: none; margin-left: 5px; transition: color 0.3s; }
         .footer-link:hover { color: #fff; text-shadow: 0 0 10px var(--accent); }
 
-        /* Mobile */
         @media (max-width: 900px) {
             .bento-grid {
                 display: flex;
@@ -283,7 +270,7 @@
     </nav>
 
     <div class="hero">
-        <h1>Хостинг, який <span>не знає</span>  твого імені</h1>
+        <h1>Хостинг, який <span>не знає</span> твого імені</h1>
         <p class="subtitle">Перша в Україні інфраструктура на базі виділених Android-кластерів. <br>Надійно. Дешево. Анонімно</p>
         <a href="#pricing" class="btn">Забронювати слот</a>
     </div>
@@ -347,7 +334,7 @@
         <div class="pricing-grid">
             <div class="price-card active">
                 <h3>Standart</h3>
-                <div class="price">69 грн<span>/міс</span></div>
+                <div class="price">67 грн<span>/міс</span></div>
                 <p style="color: var(--text-muted); margin-bottom: 25px;">Node Alpha (Samsung A51)</p>
                 <ul>
                     <li>✓ 1 Python процес</li>
