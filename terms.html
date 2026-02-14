@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | PENIS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #00ff88;
+            --text-main: #e0ffee;
+            --text-muted: #88ccaa;
+            --bg: #050a05;
+            --card-bg: #0a110a;
+            --card-hover: #0f1a0f;
+            --border: #1a3322;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: radial-gradient(circle at 50% 0%, rgba(0, 255, 136, 0.05), transparent 60%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 850px; /* Трохи вужче для зручності читання тексту */
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .minimal-logo {
+            font-size: 5rem;
+            font-weight: 800;
+            letter-spacing: -3px;
+            line-height: 0.85;
+            margin: 0 auto 40px auto;
+            text-align: center;
+            width: fit-content;
+            color: var(--accent);
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+            text-decoration: none;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .minimal-logo:hover {
+            transform: scale(1.02);
+            text-shadow: 0 0 45px rgba(0, 255, 136, 0.6);
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .last-update {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 50px;
+            opacity: 0.8;
+        }
+
+        .legal-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 32px;
+            padding: 48px;
+            box-shadow: 0 10px 40px -10px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-top: 45px;
+            margin-bottom: 20px;
+            color: var(--accent);
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            margin-right: 15px;
+            box-shadow: 0 0 10px var(--accent);
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-main);
+            opacity: 0.95;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 30px;
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            color: var(--text-muted);
+            position: relative;
+        }
+
+        ul li::before {
+            content: "→";
+            position: absolute;
+            left: -25px;
+            color: var(--accent);
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .btn-back {
+            display: block;
+            width: fit-content;
+            margin: 50px auto 0 auto;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+
+        .btn-back:hover {
+            color: #fff;
+            text-shadow: 0 0 15px var(--accent);
+            transform: translateX(-5px);
+        }
+
+        footer {
+            margin-top: 80px;
+            border-top: 1px solid var(--border);
+            padding: 50px 20px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .footer-link {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 8px;
+            transition: 0.3s;
+        }
+
+        .footer-link:hover {
+            color: #fff;
+            text-shadow: 0 0 10px var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .legal-box { padding: 30px 20px; }
+            h1 { font-size: 2.2rem; }
+            .minimal-logo { font-size: 3.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="minimal-logo">PENIS</a>
+
+    <h1>Публічна оферта</h1>
+    <div class="last-update">Останнє оновлення: 14 лютого 2026 року</div>
+
+    <div class="legal-box">
+        <p>Цей документ є публічною пропозицією (офертою) проєкту <span class="highlight">PENIS (Personal Embedded Network Infrastructure Server)</span>. Використання ресурсів Node Alpha означає вашу повну згоду з наведеними правилами.</p>
+
+        <h2>1. Предмет угоди</h2>
+        <p>Адміністрація надає Користувачеві доступ до обчислювальних потужностей на базі ARM-архітектури для розміщення та підтримки програмного коду.</p>
+
+        <h2>2. Правила використання</h2>
+        <p>Суворо заборонено використовувати ресурси для:</p>
+        <ul>
+            <li>Майнінгу будь-яких криптовалют (з метою захисту заліза <span class="highlight">Samsung A51</span>).</li>
+            <li>Здійснення мережевих атак (DDoS), масових розсилок (спам) та фішингу.</li>
+            <li>Діяльності, що порушує чинне законодавство України (злочини у сфері використання ЕОМ).</li>
+            <li>Несанкціонованого втручання в роботу державних або приватних інформаційних систем (ст. 361 ККУ).</li>
+        </ul>
+
+        <h2>3. Обмеження відповідальності</h2>
+        <p>Користувач несе повну персональну відповідальність за логіку та наслідки роботи свого коду. Адміністрація забезпечує виключно технічну доступність платформи.</p>
+
+        <h2>4. Технічні гарантії та повернення</h2>
+        <p>Ми гарантуємо працездатність інфраструктури. Компенсація настає у разі повної неможливості використання послуг з вини Адміністрації:</p>
+        <ul>
+            <li><span class="highlight">Апаратний збій</span>: Повний вихід пристрою з ладу.</li>
+            <li><span class="highlight">Мережевий простій (>24г)</span>: Відсутність доступу понад 24 години поспіль.</li>
+        </ul>
+        <p>У таких випадках діє політика повернення коштів (100% до 15-го числа, 50% після 15-го числа оплаченого місяця).</p>
+
+        <h2>5. Приватність та Managed Deploy</h2>
+        <p>З метою стабільності кластера, деплой здійснюється Адміністрацією вручну. Це передбачає:</p>
+        <ul>
+            <li><span class="highlight">Security Audit</span>: Первинна перевірка коду на відсутність бекдорів та шкідливих функцій.</li>
+            <li><span class="highlight">Конфіденційність</span>: Ми гарантуємо нерозголошення вашого коду та невикористання його в особистих цілях.</li>
+            <li><span class="highlight">Невтручання</span>: Після успішного запуску втручання в роботу скрипта не проводиться, якщо він не порушує Правила (п. 2).</li>
+        </ul>
+    </div>
+
+    <a href="index.html" class="btn-back">← Повернутися на головну</a>
+
+    <footer>
+        © 2026 Herby Irons. Powered by Samsung A51 Node Alpha |
+        <a href="https://t.me/herby1rons" class="footer-link">Telegram</a> |
+        <a href="https://www.instagram.com/herby_irons/" class="footer-link">Instagram</a>
+    </footer>
+</div>
+
+</body>
+</html>
